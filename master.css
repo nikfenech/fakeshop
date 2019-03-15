@@ -1,0 +1,65 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  /* border: 1px solid red; */
+}
+
+
+.category {
+  padding: 0 20px;
+}
+
+.navslav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  display: flex;
+}
+
+.things-for-sale {
+}
+
+/* Product Card Widgeroni*/
+
+.item-for-sale {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.item-for-sale img {
+  flex: 2 ;
+}
+
+.item-for-sale p {
+  padding: 5px;
+}
+
+/*-------------------------*/
+
+.mailing-list {
+  padding: 40px;
+  text-align: center;
+}
+
+.footer-pikachumbo {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-section {
+  flex-grow: 1;
+
+  align-text: center;
+}
